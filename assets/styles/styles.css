@@ -1,0 +1,11 @@
+nav{
+  background-color: red;
+  width: 100%;
+  height: 25vh;
+}
+main{
+  background-color: yellow;
+}
+footer{
+  background-color: green;
+}
