@@ -8,7 +8,20 @@ main{
   height: 525vh;
 }
 footer{
-  background-color: green;
+  font-family: "Leto", sans-serif;
+  font-weight: 300;
+  background-color: #222223;
   height: 8vh;
   width: 100%;
+  color: #838383;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > p {
+  font-size: .675rem;
+}
+#heart{
+  color: #DD7470;
 }
