@@ -40,7 +40,7 @@ main {
   background-color: yellow;
   /* height: 525vh; */
 }
-footer {
+.bottom-footer {
   font-family: "Lato" sans-serif;
   font-weight: 300;
   background-color: #222223;
