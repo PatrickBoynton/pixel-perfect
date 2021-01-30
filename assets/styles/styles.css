@@ -39,10 +39,10 @@ li:not(:first-child) {
 main {
   background-color: yellow;
   display: flex;
-  padding: 3.125rem 0;
+  padding: 3.125rem 1rem;
 }
 article{
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 .article-image{
   height: 23.6875rem;
