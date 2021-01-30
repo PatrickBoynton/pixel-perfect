@@ -39,7 +39,14 @@ li:not(:first-child) {
 main {
   background-color: yellow;
   display: flex;
-  padding: 3.125rem;
+  padding: 3.125rem 0;
+}
+article{
+  padding-left: 100px;
+}
+.article-image{
+  height: 23.6875rem;
+  width: 39.375rem;
 }
 div{
   display: flex;
