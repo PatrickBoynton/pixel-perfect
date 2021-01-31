@@ -67,3 +67,10 @@ article {
 .story{
   text-align: left;
 }
+.travel{
+  margin-top: 1.8rem;
+  margin-left: 1.2rem;
+  margin-bottom: .5rem;
+  font-size: .6rem;
+  text-transform: uppercase;
+}
