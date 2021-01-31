@@ -52,6 +52,7 @@ li{
 .left{
   width: 70%;
   margin-left: 7.6rem;
+  margin-right: 2.4rem;
 }
 .left img {
   width: 100%;
@@ -59,4 +60,10 @@ li{
 }
 .right{
   width: 50%;
+}
+article {
+  text-align: center;
+}
+.story{
+  text-align: left;
 }
