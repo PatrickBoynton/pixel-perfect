@@ -1,5 +1,6 @@
-body{
-  font-family: "Lato" sans-serif;
+html{
+  font-family: "Lato", sans-serif;
+  font-style: 10px;
 }
 nav {
   background-color: #fff;
@@ -7,38 +8,46 @@ nav {
   height: 7vh;
   text-transform: uppercase;
   color: white;
-  font-size: 0.5626rem;
   display: flex;
-  letter-spacing: 0.2px;
-  border-bottom: 1px solid #e7e7e7;
+  letter-spacing: .1rem;
+  margin-left: 5rem;
+  border-bottom: .1rem solid #e7e7e7;
 }
 ul {
   color: #444444;
   display: flex;
-  margin: 0;
-  font-family: "Lato";
+  font-size: .1rem;
+  margin-top: 1.2rem;
 }
 ul:first-child {
-  padding-left: 120px;
 }
 ul:not(:first-child) {
-  margin-left: 385px;
+  margin-left: 38.5rem;
 }
 li {
   list-style-type: none;
-  padding-top: 1.25rem;
-  flex-grow: 0.5;
   white-space: nowrap;
 }
 .fun:not(:first-child) {
-  margin-left: 15px;
+  margin-left: 1.5rem;
 }
 .fun:last-child {
-  margin-left: 22px;
+  margin-left: 2.2rem;
+}
+.travel{
+  margin-top: 2.6rem;
+  margin-right: .7rem;
+  font-size: .2rem;
+  text-transform: uppercase;
+}
+h3{
+  font-family: "Oswald";
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 img{
   width: 100%;
-  height: 23.875rem;
+  height: 23rem;
 }
 div{
   width: 50%;
@@ -48,26 +57,42 @@ aside{
   margin-left: 3%;
   width: 23%;
   margin-right: 25%;
+  text-align: center;
 }
 li:not(:first-child) {
-  margin-left: 23px;
+  margin-left: .9rem;
 }
 main{
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.2rem;
 }
 article{
   text-align: center;
 }
 .article-footer{
   display: flex;
+  width: 100%;
+}
+.article-p{
+  font-size: .8rem;
+  line-height: 1.3rem;
+  text-align: left;
+  margin-bottom: 2.8rem;
+}
+button{
+  border: 1px solid #CA5B3C;
+  color: #CA5B3C;
+  text-transform: uppercase;
+  padding: .5rem 2rem;
+  margin-bottom: 2rem;
+  font-size: .3rem;
 }
 aside ul {
   float: left;
 }
 
 footer > p {
-  font-size: 0.675rem;
+  font-size:1.1rem;
 }
 #heart {
   color: #dd7470;
