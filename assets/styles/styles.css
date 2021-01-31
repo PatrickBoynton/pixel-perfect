@@ -1,3 +1,6 @@
+body{
+  font-family: "Lato" sans-serif;
+}
 nav {
   background-color: #fff;
   width: 100%;
@@ -33,40 +36,36 @@ li {
 .fun:last-child {
   margin-left: 22px;
 }
+img{
+  width: 100%;
+  height: 23.875rem;
+}
+div{
+  width: 50%;
+  margin-left: 12%;
+}
+aside{
+  margin-left: 3%;
+  width: 23%;
+  margin-right: 25%;
+}
 li:not(:first-child) {
   margin-left: 23px;
 }
-main {
-  background-color: yellow;
+main{
   display: flex;
-  padding: 3.125rem 1rem;
-}
-article{
-  padding-left: 6.25rem;
-}
-.article-image{
-  height: 23.6875rem;
-  width: 39.375rem;
-}
-div{
-  display: flex;
-  flex-direction: column;
+  margin-top: 50px;
 }
 article{
   text-align: center;
 }
-.bottom-footer {
-  font-family: "Lato" sans-serif;
-  font-weight: 300;
-  background-color: #222223;
-  height: 8vh;
-  width: 100%;
-  color: #838383;
-  text-align: center;
+.article-footer{
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
+aside ul {
+  float: left;
+}
+
 footer > p {
   font-size: 0.675rem;
 }
