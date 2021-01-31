@@ -66,11 +66,21 @@ article {
 }
 .story{
   text-align: left;
+  line-height: 1.5;
+  font-size: .8rem;
+  
 }
 .travel{
   margin-top: 1.8rem;
   margin-left: 1.2rem;
-  margin-bottom: .5rem;
+  margin-bottom: .7rem;
   font-size: .6rem;
   text-transform: uppercase;
+}
+.left h2{
+  margin-bottom: 1.3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  /* letter-spacing: .3rem; */
+  font-family: "Oswald";
 }
