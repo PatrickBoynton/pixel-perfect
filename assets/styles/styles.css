@@ -19,6 +19,9 @@ nav{
   padding-bottom: 1.4rem;
   border-bottom: 2px solid #CCC;
 }
+main{
+  margin-bottom: 2.8rem;
+}
 ul{
   display: flex;
 }
@@ -26,17 +29,21 @@ li{
   list-style: none;
   margin-right: 1.2rem
 }
+h2{
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
 .follow{
   text-align: center;
 }
 .footer-top{
   display: flex;
   width: 100%;
-  height: auto;
+  flex-grow: 1;
 }
 .footer-top  img{
-  width: 100%;
-  height: 130px;
+  width:50%
+  height: 10rem;
 }
 
 .footer-bottom{
@@ -61,14 +68,54 @@ li{
 .right{
   width: 50%;
 }
+.right img {
+  widows: 100%;
+}
+.profile{
+  position: relative;
+  width: 70%;
+}
+.background {
+  width: 100%;
+  height: 9.5rem;
+  margin-bottom: 4rem;
+}
+.profile-picture{
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  border-radius: 100px;
+  border: 6px solid white;
+  top: 5rem;
+  right: 4.5rem;
+}
+.profile-heading{
+  font-family: "Oswald";
+  text-transform: uppercase;
+  margin-left: 6.5rem;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+.profile-text{
+  font-size: .8rem;
+  text-align: center;
+  line-height: 1.3rem;
+  margin: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+.footer-icons{
+  margin-left: 5rem;
+}
 article {
   text-align: center;
 }
 .story{
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.57;
   font-size: .8rem;
-  
+  margin-left: 1.9rem;
+  margin-bottom: 2em;
 }
 .travel{
   margin-top: 1.8rem;
@@ -81,6 +128,36 @@ article {
   margin-bottom: 1.3rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  /* letter-spacing: .3rem; */
   font-family: "Oswald";
+  margin-left: 1rem;
+}
+.right-main h1{
+  border: 2px solid;
+}
+button{
+  text-transform: uppercase;
+  font-size: .1rem;
+  padding: .5rem 1.5rem;
+}
+.follow{
+  text-transform: uppercase;
+}
+.article-footer{
+  margin-top: 2.3em;
+  margin-bottom: 5.2rem;
+}
+.latest{
+  display: flex;
+  margin-left: 3.5rem;
+}
+.latest img{
+  width: 6rem;
+}
+.right-main{
+  padding: 2.5rem;
+}
+.right-section-top{
+  /* height: 2rem; */
+  width: 20%;
+  height: 20%;
 }
