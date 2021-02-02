@@ -11,12 +11,13 @@ html {
 }
 nav {
   display: flex;
-  font-size: 0.6rem;
+  font-size: 0.2rem;
   text-transform: uppercase;
-  padding-left: 7.6rem;
+  padding-left: 7.3rem;
   padding-top: 1.2rem;
   margin-bottom: 2rem;
   padding-bottom: 1.4rem;
+  letter-spacing: .1rem;
   border-bottom: 2px solid #ccc;
 }
 main {
@@ -32,6 +33,13 @@ li {
 h2 {
   font-family: "Oswald";
   text-transform: uppercase;
+}
+h4{
+  font-family: "Oswald";
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: .3125rem;
+  text-align: center;
 }
 .follow {
   text-align: center;
@@ -65,7 +73,7 @@ h2 {
   height: 23.8rem;
 }
 .right {
-  width: 53.8%;
+  width: 50.8%;
 }
 .right img {
   widows: 100%;
@@ -73,6 +81,7 @@ h2 {
 .profile {
   position: relative;
   width: 70%;
+  margin-bottom: .3rem;
 }
 .background {
   width: 100%;
@@ -169,15 +178,18 @@ button {
   padding: 2.5rem;
 }
 .right-section-top {
-  /* height: 2rem; */
+  height: 2rem;
   width: 20%;
   height: 20%;
 }
 .right-section-top img {
-  border: 2px solid blue;
+  height: 8rem;
+  width: 12rem;
 }
 .popular-heading{
   font-size: .9rem;
+  margin-left: 3.3rem;
+  margin-bottom: 1.3rem;
   font-family: "Oswald";
   text-transform: uppercase;
 }
