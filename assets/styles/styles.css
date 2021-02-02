@@ -20,6 +20,9 @@ nav {
   letter-spacing: .1rem;
   border-bottom: 2px solid #ccc;
 }
+.right-nav{
+  margin-left: 23rem;
+}
 main {
   margin-bottom: 2.8rem;
 }
@@ -40,6 +43,16 @@ h4{
   white-space: nowrap;
   font-size: .3125rem;
   text-align: center;
+}
+.section-header{
+  font-family: "Oswald";
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+.section-image{
+  margin-bottom: .5rem;
 }
 .follow {
   text-align: center;
@@ -83,8 +96,15 @@ h4{
 .right {
   width: 50.8%;
 }
-.right img {
+/* .right img {
   widows: 100%;
+} */
+.right-section-top time {
+  white-space: nowrap;
+  font-size: .8rem;
+}
+.test {
+  text-align: center;
 }
 .profile {
   position: relative;
