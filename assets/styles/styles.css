@@ -63,6 +63,14 @@ h4{
 .article-footer {
   display: flex;
 }
+.latest time{
+  font-size: .6rem;
+  white-space: nowrap;
+}
+.latest h4{
+  display: inline-block;
+  margin: 0;
+}
 .left {
   width: 76%;
   margin-left: 7.6rem;
@@ -80,13 +88,13 @@ h4{
 }
 .profile {
   position: relative;
-  width: 70%;
+  width: 78%;
   margin-bottom: .3rem;
 }
 .background {
-  width: 100%;
+  width: 89.8%;
   height: 9.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4.2rem;
   padding-right: 1rem;
 }
 .profile-picture {
@@ -96,12 +104,12 @@ h4{
   border-radius: 100px;
   border: 6px solid white;
   top: 5rem;
-  right: 4.5rem;
+  right: 6.6rem;
 }
 .profile-heading {
   font-family: "Oswald";
   text-transform: uppercase;
-  margin-left: 6.5rem;
+  margin-left: 6rem;
   margin-top: 0.3rem;
   margin-bottom: 1rem;
   font-size: 0.9rem;
@@ -114,7 +122,7 @@ h4{
   margin-bottom: 1.5rem;
 }
 .footer-icons {
-  margin-left: 5rem;
+  margin-left: 4rem;
   font-size: .8rem;
 }
 article {
