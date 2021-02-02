@@ -65,7 +65,7 @@ h2 {
   height: 23.8rem;
 }
 .right {
-  width: 50%;
+  width: 53.8%;
 }
 .right img {
   widows: 100%;
@@ -78,6 +78,7 @@ h2 {
   width: 100%;
   height: 9.5rem;
   margin-bottom: 4rem;
+  padding-right: 1rem;
 }
 .profile-picture {
   width: 8rem;
@@ -112,7 +113,7 @@ article {
 }
 .story {
   text-align: left;
-  line-height: 1.57;
+  line-height: 1.5;
   font-size: 0.8rem;
   margin-left: 1.9rem;
   margin-bottom: 2em;
@@ -171,6 +172,9 @@ button {
   /* height: 2rem; */
   width: 20%;
   height: 20%;
+}
+.right-section-top img {
+  border: 2px solid blue;
 }
 .popular-heading{
   font-size: .9rem;
