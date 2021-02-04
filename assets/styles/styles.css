@@ -71,12 +71,13 @@ h4{
 }
 .footer-bottom {
   width: 100vw;
-  padding: 1rem;
   background-color: #222223;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #242424; */
+  color: white;
+}
+.footer-bottom > p {
 }
 .article-footer {
   display: flex;
@@ -89,7 +90,7 @@ h4{
   display: inline-block;
   margin: 0;
 }
-.latest-posts{
+.latest-posts-header{
   text-align: center;
   font-family: "Oswald";
   text-transform: uppercase;
@@ -222,11 +223,11 @@ button {
   width: 50%;
 }
 .right-main {
-  padding: 2.5rem;
+  padding: 1rem;
 }
 .right-section-top {
   height: 2rem;
-  width: 20%;
+  width: 50%;
   height: 20%;
   margin-bottom: 2rem;
 }
@@ -240,4 +241,7 @@ button {
   margin-bottom: 1.3rem;
   font-family: "Oswald";
   text-transform: uppercase;
+}
+.instagram-followers{
+  display: flex;
 }
