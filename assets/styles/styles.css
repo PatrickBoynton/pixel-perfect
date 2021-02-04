@@ -24,7 +24,7 @@ nav {
   margin-left: 23rem;
 }
 .left-nav{
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
 }
 main {
   margin-bottom: 2.8rem;
@@ -88,6 +88,9 @@ h4{
 .latest h4{
   display: inline-block;
   margin: 0;
+}
+.latest-posts{
+  text-align: center;
 }
 .left {
   width: 76%;
@@ -207,6 +210,13 @@ button {
 }
 .latest img {
   width: 6rem;
+}
+.latest-title-time{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 .right-main {
   padding: 2.5rem;
