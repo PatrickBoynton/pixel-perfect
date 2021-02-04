@@ -23,6 +23,9 @@ nav {
 .right-nav{
   margin-left: 23rem;
 }
+.left-nav{
+  letter-spacing: 2px;  
+}
 main {
   margin-bottom: 2.8rem;
 }
@@ -68,10 +71,12 @@ h4{
 }
 .footer-bottom {
   width: 100vw;
+  padding: 1rem;
+  background-color: #222223;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #242424;
+  /* background-color: #242424; */
 }
 .article-footer {
   display: flex;
@@ -153,12 +158,11 @@ article {
   line-height: 1.5;
   font-size: 0.8rem;
   margin-left: 1.9rem;
-  margin-bottom: 2em;
+  margin-bottom: 2.3em;
 }
 .article-type {
   margin-top: 2rem;
-  margin-left: 1.2rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.8rem;
   font-size: 0.6rem;
   text-transform: uppercase;
 }
@@ -177,6 +181,8 @@ button {
   font-size: 0.1rem;
   padding: 0.5rem 1.5rem;
   margin-bottom: .7rem;
+  border: 1px solid #CA5B3C;
+  color: #CA5B3C;
 }
 .follow {
   text-transform: uppercase;
@@ -209,6 +215,7 @@ button {
   height: 2rem;
   width: 20%;
   height: 20%;
+  margin-bottom: 2rem;
 }
 .right-section-top img {
   height: 8rem;
@@ -216,7 +223,7 @@ button {
 }
 .popular-heading{
   font-size: .9rem;
-  margin-left: 3.3rem;
+  margin-left: 3.4rem;
   margin-bottom: 1.3rem;
   font-family: "Oswald";
   text-transform: uppercase;
