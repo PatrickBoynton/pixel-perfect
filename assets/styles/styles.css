@@ -17,13 +17,13 @@ nav {
   padding-top: 1.2rem;
   margin-bottom: 2rem;
   padding-bottom: 1.4rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   border-bottom: 2px solid #ccc;
 }
-.right-nav{
+.right-nav {
   margin-left: 23rem;
 }
-.left-nav{
+.left-nav {
   letter-spacing: 2px;
 }
 main {
@@ -40,27 +40,27 @@ h2 {
   font-family: "Oswald";
   text-transform: uppercase;
 }
-h4{
+h4 {
   font-family: "Oswald";
   text-transform: uppercase;
   white-space: nowrap;
-  font-size: .3125rem;
+  font-size: 0.3125rem;
   text-align: center;
 }
-.section-header{
+.section-header {
   font-family: "Oswald";
   text-transform: uppercase;
   white-space: nowrap;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
-.section-image{
-  margin-bottom: .5rem;
+.section-image {
+  margin-bottom: 0.5rem;
 }
 .follow {
   text-align: center;
   margin-bottom: 1.4rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .footer-top {
   width: 100%;
@@ -84,19 +84,19 @@ h4{
 .article-footer {
   display: flex;
 }
-.latest time{
-  font-size: .6rem;
+.latest time {
+  font-size: 0.6rem;
   white-space: nowrap;
 }
-.latest h4{
+.latest h4 {
   display: inline-block;
   margin: 0;
 }
-.latest-posts-header{
+.latest-posts-header {
   text-align: center;
   font-family: "Oswald";
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .left {
   width: 76%;
@@ -115,7 +115,7 @@ h4{
 } */
 .right-section-top time {
   white-space: nowrap;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .test {
   text-align: center;
@@ -123,7 +123,7 @@ h4{
 .profile {
   position: relative;
   width: 78%;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 .background {
   width: 89.8%;
@@ -157,7 +157,7 @@ h4{
 }
 .footer-icons {
   margin-left: 4rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 article {
   text-align: center;
@@ -189,9 +189,9 @@ button {
   text-transform: uppercase;
   font-size: 0.1rem;
   padding: 0.5rem 1.5rem;
-  margin-bottom: .7rem;
-  border: 1px solid #CA5B3C;
-  color: #CA5B3C;
+  margin-bottom: 0.7rem;
+  border: 1px solid #ca5b3c;
+  color: #ca5b3c;
 }
 .follow {
   text-transform: uppercase;
@@ -202,25 +202,24 @@ button {
   display: flex;
   justify-content: space-between;
 }
-.article-footer-text{
-  font-size: .7rem;
+.article-footer-text {
+  font-size: 0.7rem;
   margin-left: 2rem;
   white-space: nowrap;
 }
 .article-footer ul {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 .latest {
   display: flex;
   margin-top: 2rem;
   margin-left: 4rem;
   margin-bottom: 1rem;
-
 }
 .latest img {
   width: 6rem;
 }
-.latest-title-time{
+.latest-title-time {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,18 +239,18 @@ button {
   height: 8rem;
   width: 12rem;
 }
-.popular-heading{
-  font-size: .9rem;
+.popular-heading {
+  font-size: 0.9rem;
   margin-left: 3.4rem;
   margin-bottom: 1.3rem;
   font-family: "Oswald";
   text-transform: uppercase;
 }
-.instagram-headers{
+.instagram-headers {
   margin-bottom: 2rem;
   margin-left: 5.5rem;
 }
-.instagram-followers{
+.instagram-followers {
   display: flex;
   height: 100px;
   width: 150px;
@@ -268,9 +267,9 @@ button {
 .right-section-top time {
   margin-left: 50px;
 }
-.hearts{
-  color: #DF726E;
+.hearts {
+  color: #df726e;
 }
-.last{
+.last {
   margin-bottom: 8.5rem;
 }
